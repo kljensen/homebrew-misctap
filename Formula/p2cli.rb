@@ -4,8 +4,8 @@
 class P2cli < Formula
   desc "pongo2 cli - like the j2cli package in python, but compiles to self-contained go executables"
   homepage ""
-  url "https://github.com/wrouesnel/p2cli/archive/r6.tar.gz"
-  sha256 "341088eae76d2d3000a8bb0f0a4b1b86a98750eb2831ab1dd4fc22ff058a150d"
+  url "https://github.com/kljensen/p2cli/archive/kljfix.tar.gz"
+  sha256 "ec7b83c37898e83cdfb9e1b1c0fcce3967a3533a78f289b7381f7c18ff3ca27"
   license "GPL-2.0"
 
   depends_on "go" => :build
