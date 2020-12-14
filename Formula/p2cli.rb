@@ -12,7 +12,7 @@ class P2cli < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "go", "build", "-mod", "vendor", "-o", "p2cli"
+    system "go", "build", "-o", "p2cli"
     bin.install "p2cli"
   end
 
