@@ -6,7 +6,7 @@ class P2cli < Formula
   homepage ""
   url "https://github.com/kljensen/p2cli/archive/r6-kljfix.tar.gz"
   version "r6-kljfix"
-  sha256 " df43acec00ce31141a03a784d750b077203bc18be0c604d2db72d2a0b3e50b80"
+  sha256 "df43acec00ce31141a03a784d750b077203bc18be0c604d2db72d2a0b3e50b80"
   license "GPL-2.0"
 
   depends_on "go" => :build
