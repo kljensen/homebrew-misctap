@@ -8,7 +8,8 @@ class CavifRs < Formula
   sha256 "55b326b001b4a9ed62842bc65ea8bf00ef25081078f44a6d2c55aa3c3eafdd79"
   license "BSD-3-Clause"
 
-  # depends_on "cmake" => :build
+  depends_on "rust" => :build
+
 
   def install
     system "cargo", "build", "--release", "--bin", "cavif"
