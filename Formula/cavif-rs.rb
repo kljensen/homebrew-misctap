@@ -9,6 +9,7 @@ class CavifRs < Formula
   license "BSD-3-Clause"
 
   depends_on "rust" => :build
+  depends_on "yasm" => :build
 
 
   def install
